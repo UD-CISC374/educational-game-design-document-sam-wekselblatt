@@ -1,179 +1,173 @@
-# Game Name
+# The Sorting Hat
 
 ## Elevator Pitch
 
-*A one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.*
+There was a confusion at the hat factory and a group of people ended up getting the wrong colored hat! You will be given a sotring algorithm to follow, and, by dragging around the hats, you will have to put the hats in the correct order so that everyone gets the hat they wanted.
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #3*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+- Harry Potter:
+  - Medium: Movies and Literature
+  - Explanation: The phrase "Sorting Hat" is well known due to the popularity of the Harry Potter films and novels.
+- Dragon Slayer:
+  - Medium: Game
+  - Explanation: This Newgrounds flash game has a similar character design to that of what I intend the customers to look like.
 
 ## Core Gameplay Mechanics (Brief)
 
-*Give a very high-level description of any core gameplay mechanics*
-
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
-- *Gameplay Mechanic #4*
+- Swap hats by dragging one hat to the head of another person.
+- If you swap hats too many times without getting the order right the people will
+get mad and you will have to start the sort over.
+- If you correctly sort the hats within the given movement count the people will 
+be happy and you can move onto the next round.
 
 # Learning Aspects
 
 ## Learning Domains
 
-*Briefly list any and all of the disciplines and learning domains for this subject.*
+Introduction to basic sorting algorithms
 
 ## Target Audiences
 
-*Who are your learners?*
+Elementary to middle schoolers
 
 ## Target Contexts
 
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
+This will be suplemental learning after students have been given a basic introduction to sorting algorithms.
+This can be used as a classroom activity as a way to reinforce information.
 
 ## Learning Objectives
 
-*Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
-
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- Students will be able to distinguish between various sorting algorithms.
 
 ## Prerequisite Knowledge
 
-*What do they need to know prior to trying this game?*
-
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- Students will need to know generally what a sorting algorithm is.
 
 ## Assessment Measures
 
-*Describe how the learning will be assessed, e.g., pre/post multiple-choice test, or SAT, or some other instrument.*
-
-*If proposing a new instrument, briefly and concisely list some example assessment questions.*
+- Given an array of numbers, sort the array into ascending order. Show each step using a Bubble Sort.
+- Given an array of numbers, sort the array into ascending order. Show each step using a Selection Sort.
+- Given an array of numbers, sort the array into ascending order. Show each step using an Insertion Sort.
 
 # What sets this project apart?
 
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
-
-- *Reason #1*
-- *Reason #2*
-- *Reason #3*
-- *Reason #4*
-- *etc.*
+- This game gives the player the experience of performing these sorts by hand, which makes learning the sorts more engaging
+than watching visual representations of the sort or theorizing how it would look after reading about it.
+- This game focuses more on understanding the basics of each of its sorting algorithms and what sets them apart rather than on
+how to write the code for them.
 
 # Player Interaction Patterns and Modes
 
 ## Player Interaction Pattern
 
-*Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
+- The game is single player.
+- The player uses the mouse to drag hats around.
 
 ## Player Modes
 
-*Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
-
-- *Player mode #1*: *Description*
-- *Player mode #2*: *Description*
-- *etc.*
+- Single-player: The player completes several levels before finishing the game.
 
 # Gameplay Objectives
 
-- *Primary Objective #1*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *Primary Objective #2*:
-    - Description: *Description*
-    - Alignment: *Describe how this aligns with one or more learning objectives*
-- *etc.*
+- Make the customers happy:
+    - The customers will be happy once every person has the correct hat.
+- Complete the sort within the movement limit:
+    - Perform the correct sort without exceeding the limited amount of moves to progress to the next level.
+- Complete all the levels
+    - Finish all the levels to beat the game.
 
 # Procedures/Actions
 
-*Describe the control scheme and what actions a user can take in the game.*
+- The player drags hats from one person's head to another.
 
 # Rules
 
-*What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
+- Each level will give the player a movement limiter. 
+    - If the player exceeds this number of move it counts as a loss and the player has the option to try the level agian.
+- Each level will give the player a sorting algorithm they must use.
+    - The algorithms the game will use will be Bubble Sort, Selection Sort, and Insertion Sort.
+- When given a Bubble Sort, the player will only be allowed to drag and swap hats with the person immediatly next to them.
+    - If the player chooses any other hat to swap with the hat will return to its original head.
+- When given a Selection Sort, the player can choose any head to swap hats with.
+    - Only the hat the player drags and the hat it will be replacing will swap. All other hats will remain in place.
+- When given an insertion Sort, the player can choose any head to place the hat on.
+    - The hats will then move either left or right depending on where the original hat was dragged from.
+- The game will alternate between the three sorting algorithms, with each appearance of the individual sorting algorithms 
+giving the player a smaller movement limit.
 
 # Objects/Entities
 
-*What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
+- There will be nine people standing in line.
+- There will be nine moveable uniquely colored hats, one on each head of a person in line.
+- There will be a move limit on the screen.
+- There will be a move counter on the screen.
+- There will be a display stating which sorting algorithm to use.
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Core Gameplay Mechanic #1*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #2*: *Describe in 2 paragraphs or less, along with how it generally works*
-- *Core Gameplay Mechanic #3*: *Describe in 2 paragraphs or less, along with how it generally works*
-
+- Moving the hat to a viable head: If the player drags a hat to a position that is allowed by the sorting algorithm,
+then the hats will move asshould be expected given the algorithm. The hats will swap if it is a Selection or Bubble sort, or the hats will move one head over if it is an Insertion sort.
+- Moving the hat to a non-viable head: If the player is given a Bubble Sort and tries to swap hats with a head that is not
+immediatly next to their current one, the hat will return back to its original head.
+- Completing the Sort: If the player is able to complete the sort correctly within the move limit, the game will progress to the next
+level and change the sorting algorithm as well as the location of the hats.
+Hitting the movement limit: If the player exceeds the maximum move limit, then the game is over. From here the player will have the
+option to start the level over or quit the game.
+- Completing all the Sorts: If the player completes all the levels of the game, the owner of the hat factory will greet the player and
+thank them for a job well done.
     
 ## Feedback
 
-*Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
-
-*Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
+- When you complete the level the customers smile and show signs of happiness.
+- The movement counter and limiter show how close or far the player was from losing.
+- Completing a level brings out a new batch of customers who have the wrong hats.
+- Winning the game brings out the owner of the hat factor who thanks the player.
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
-*Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
+- A display will appear on the screen stating which sorting algorith to use.
+- A counter will appear on the screen stating how many moves the player is allowed to make.
 
 ## Presentation of Content
 
-*Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
+- The hats will move in accordance to the sorting algorithm, showing the player how each algorithm handles its components.
 
 ## Story (Brief)
 
-*The Summary or TL;DR version of below*
+A hat factory incorrectly gives customers the wrong hats. As a store employee it is your job to go and sort out what the issue is. 
+As is company regulation, you are required to use certain sorting algorithms with the customers. If you take too long to sort
+the hats the customers will get upset and leave, permanently losing their business.
 
-## Storyboarding
-
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
 
 # Assets Needed
 
 ## Aethestics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+The game will have a colorful and happy aesthetic with its characters, enticing the player to interact with them and their hats.
 
 ## Graphical
 
 - Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
-- Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
+  - The customers: There will be nine customers, each with a different colored shirt. They will need three faces: happy, sad, and upset.
+  - The manager: The manager will need two faces, happy (for if you beat the game) and upset (for if you lose the game).
 - Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
-
+  - Background: The factory will be colorful and bright while also being industrial.
+  - Hats: The hats will each be a different color, coresponding to the color of the shirt the customers are wearing.
 
 ## Audio
 
-
-*Game region/phase/time are ways of designating a particularly important place in the game.*
-
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - Gameplay: Soft elevator music (Similar to Mass Effect Elevator Music 2).
+  - Game over: Short jingle to show defeat (Similar to Earthbound Game Over theme).
+  - Winning the game: Short jingle to show victory (Similar to Final Fantasy III victory theme).
   
 *Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
 
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
-
+  - Swapping hats: A kind of (ffffffp) sound, like that of two pieces of felt rubbing together shortly.
 
 # Metadata
 
