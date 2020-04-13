@@ -168,7 +168,20 @@ The game will have a colorful and happy aesthetic with its characters, enticing 
 
 - Sound List (SFX)
   - Swapping hats: A kind of (ffffffp) sound, like that of two pieces of felt rubbing together shortly.
+## Proof of Issue
 
+-Sorting is Boring: Computer Science Education Needs to Join the Real World
+  - https://www.huffpost.com/entry/sorting-is-boring-compute_b_6675650
+  - The focus of this article is on the negative reaction had by a group of female students when learning about sorting algorithms.
+  - One of the conclusions drawn by the article is that the students viewed sorting for the sake of sorting as pointless and uninteresting.
+  - My game aims to create an interactive showcase for sorting algorithms, providing a context to using sorting algorithms that is lacking in other introductor teaching methods.
+  - While this article is not a conclusive scientific study, it does show a present difficulty in getting students interesting in learning sorting algorithms.
+-Draft New York State Computer Science and Digital Fluence Learning Standards
+  - http://www.nysed.gov/common/nysed/files/programs/curriculum-instruction/draft-nys-k-12-computer-science-digital-fluency-standards.pdf
+  - This document is a draft showcase for a computer science curriculum that would be implemented in New York State schools for grades K-12.
+  - Of note, the current structure of these classes is to begin instroducing the abstract concept of sorting in grades 6-8, and then introduce specific sorting algorithms in grades 9-12.
+  - My game aims to both introduce and educate younger students to both the concept of sorting and to specific sorting algorithms.
+  - This document shows a lack of proper sorting education before grade 9, and my game is made to get students comfortable and accustomed to sorting algorithms before high school.
 # Metadata
 
 * Template created by Austin Cory Bart <acbart@udel.edu>, Mark Sheriff, Alec Markarian, and Benjamin Stanley.
